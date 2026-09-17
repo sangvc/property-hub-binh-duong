@@ -1,0 +1,171 @@
+{
+  "project_name": "Pool Local - Mặt Bằng & Chỗ Ở Bình Dương",
+  "archetype": "ARCHETYPE 1: ORGANIC & EARTHY with Modern Vietnamese Commerce Accent (Warm Terracotta, Saigon Emerald, Deep Charcoal)",
+  "language": "vi",
+  "typography": {
+    "font_family_heading": "Cabinet Grotesk, Plus Jakarta Sans, system-ui, -apple-system, sans-serif",
+    "font_family_body": "Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "font_family_mono": "JetBrains Mono, Menlo, monospace",
+    "scale": {
+      "hero_title": "text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight",
+      "section_title": "text-2xl sm:text-3xl font-extrabold tracking-tight",
+      "subsection_title": "text-xl sm:text-2xl font-bold tracking-tight",
+      "card_title": "text-lg font-bold leading-snug",
+      "price_tag": "text-xl sm:text-2xl font-black font-mono tracking-tight",
+      "body": "text-sm sm:text-base leading-relaxed",
+      "meta_label": "text-xs font-semibold uppercase tracking-wider",
+      "caption": "text-xs text-stone-500"
+    }
+  },
+  "colors": {
+    "brand_primary": "#E05A47",
+    "brand_primary_hover": "#C94635",
+    "brand_primary_soft": "#FFF1EE",
+    "brand_emerald": "#0F5132",
+    "brand_emerald_soft": "#E8F5E9",
+    "zalo_blue": "#0068FF",
+    "zalo_blue_hover": "#0056D6",
+    "zalo_blue_soft": "#EBF3FF",
+    "status_available": {
+      "badge_bg": "bg-emerald-50 text-emerald-800 border-emerald-200",
+      "dot": "bg-emerald-500",
+      "label": "Đang sẵn sàng"
+    },
+    "status_urgent": {
+      "badge_bg": "bg-amber-50 text-amber-900 border-amber-200 animate-pulse",
+      "dot": "bg-amber-500",
+      "label": "Đang gấp"
+    },
+    "status_rented": {
+      "badge_bg": "bg-stone-100 text-stone-500 border-stone-200",
+      "dot": "bg-stone-400",
+      "label": "Đã cho thuê"
+    },
+    "surface": {
+      "bg_light": "#FAF9F6",
+      "card_light": "#FFFFFF",
+      "border_subtle": "#EBE8E1",
+      "border_strong": "#DDD8CE",
+      "text_main": "#1C1917",
+      "text_muted": "#78716C",
+      "surface_elevated": "#FFFFFF"
+    }
+  },
+  "layout_principles": {
+    "philosophy": "Listing-First Catalog & Tactical Coordination via Zalo. Zero bloat, instant visual recognition of Area (Thuận An, Thủ Dầu Một, Dĩ An), Price, and Size.",
+    "header": {
+      "type": "Sticky Glassmorphism with Frosted Scrim",
+      "classes": "sticky top-0 z-50 bg-[#FAF9F6]/90 backdrop-blur-xl border-b border-stone-200/80 px-4 sm:px-6 lg:px-8 py-3.5",
+      "components": [
+        "Brand Logo: 'POOL LOCAL' with pin indicator",
+        "Area Quick Switcher (Tất cả, Thuận An, Thủ Dầu Một, Dĩ An)",
+        "Role CTA: 'Đăng tin CTV' (mobile first modal/page)",
+        "Admin Portal button / Quick Zalo Coordinator contact"
+      ]
+    },
+    "hero_quick_filter_bar": {
+      "style": "Tactical pill strip + Type switcher (Tất cả / Mặt bằng kinh doanh / Chỗ ở) + District pills + Status filter + Price sort",
+      "sticky_on_mobile": true
+    },
+    "grid_modes": {
+      "public_listing_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 lg:gap-6",
+      "bento_featured_spotlight": "grid grid-cols-1 md:grid-cols-12 gap-6 mb-8"
+    }
+  },
+  "card_anatomy": {
+    "ratio": "aspect-[4/3] image container with nested badge overlays",
+    "top_badges": [
+      "Property Type Badge (Mặt bằng kinh doanh / Căn hộ mini / Nhà nguyên căn)",
+      "Status Pill (Đang sẵn sàng / Đang gấp / Đã cho thuê)",
+      "Area Chip (Thuận An / Thủ Dầu Một / Dĩ An)"
+    ],
+    "bottom_bar": {
+      "price": "e.g. 12.5 triệu / tháng (bold terracotta)",
+      "area": "e.g. 85 m² (with icon)",
+      "zalo_action": "Primary quick deep-link button 'Zalo ngay' pre-filled with Listing ID & Title"
+    }
+  },
+  "curated_image_assets": {
+    "commercial_spaces": [
+      {
+        "url": "https://images.unsplash.com/photo-1690648518721-801b5e290844?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHxyZXRhaWwlMjBzdG9yZWZyb250JTIwY2FmZSUyMHN0b3JlfGVufDB8fHx8MTc4OTQ0NzYzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Mặt bằng kinh doanh góc 2 mặt tiền, quán cà phê/showroom Thuận An",
+        "tags": ["commercial", "thuan-an", "mat-bang"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1759050486852-fdfe2fdc7bea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwyfHxyZXRhaWwlMjBzdG9yZWZyb250JTIwY2FmZSUyMHN0b3JlfGVufDB8fHx8MTc4OTQ0NzYzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Mặt bằng thương mại trần cao hiện đại, Thủ Dầu Một",
+        "tags": ["commercial", "thu-dau-mot", "mat-bang"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1469631423273-6995642a6a40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwxfHxyZXRhaWwlMjBzdG9yZWZyb250JTIwY2FmZSUyMHN0b3JlfGVufDB8fHx8MTc4OTQ0NzYzM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Kiot & Cửa hàng F&B setup sẵn, Dĩ An",
+        "tags": ["commercial", "di-an", "mat-bang"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1598790193169-5841a2d75d04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODd8MHwxfHNlYXJjaHwyfHx2aWV0bmFtJTIwc3RyZWV0JTIwc2hvcCUyMGhvdXNlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzg5NDQ3NjI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Nhà phố thương mại shophouse mặt tiền đường lớn Thuận An",
+        "tags": ["commercial", "shophouse", "thuan-an"]
+      }
+    ],
+    "residential_spaces": [
+      {
+        "url": "https://images.unsplash.com/photo-1738168246881-40f35f8aba0a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHJvb218ZW58MHx8fHwxNzg5NDQ3NjI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Căn hộ dịch vụ cao cấp full nội thất, Thủ Dầu Một",
+        "tags": ["residential", "thu-dau-mot", "can-ho"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1662454419622-a41092ecd245?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHJvb218ZW58MHx8fHwxNzg5NDQ3NjI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Studio hiện đại cho chuyên gia KCN VSIP 1, Thuận An",
+        "tags": ["residential", "thuan-an", "phong-tro"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1663756915304-40b7eda63e41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHJvb218ZW58MHx8fHwxNzg5NDQ3NjI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Căn hộ 2 phòng ngủ gia đình, gần Lotte Mart Lái Thiêu",
+        "tags": ["residential", "thuan-an", "can-ho"]
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1628592102751-ba83b0314276?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBhcGFydG1lbnQlMjBpbnRlcmlvciUyMHJvb218ZW58MHx8fHwxNzg5NDQ3NjI5fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Phòng trọ cao cấp có gác lửng thông minh, Dĩ An gần ĐHQG",
+        "tags": ["residential", "di-an", "phong-tro"]
+      }
+    ]
+  },
+  "interactive_flows": {
+    "zalo_coordination_cta": {
+      "central_zalo_number": "0988776655",
+      "zalo_link_formula": "https://zalo.me/{phone}?text={encoded_message}",
+      "message_templates": {
+        "listing_inquiry": "Chào Pool Local, tôi quan tâm tin đăng [{id}] - {title} ({district}) giá {price}. Nhờ bên mình tư vấn và đặt lịch xem nhà giúp tôi.",
+        "collaborator_support": "Chào Admin Pool Local, tôi là CTV vừa gửi tin [{id}], nhờ kiểm duyệt giúp.",
+        "general_inquiry": "Chào Pool Local, tôi cần tìm mặt bằng/chỗ ở tại Bình Dương."
+      }
+    },
+    "mobile_collaborator_form": {
+      "priority": "Speed & Zero friction on smartphone screen",
+      "steps": [
+        "1. Chọn loại: [Mặt bằng kinh doanh] hay [Chỗ ở]",
+        "2. Khu vực: [Thuận An] / [Thủ Dầu Một] / [Dĩ An] + Địa chỉ cụ thể",
+        "3. Giá thuê (Triệu/tháng) & Diện tích (m²)",
+        "4. Tải ảnh nhanh (preview tức thì) & Link video (Youtube/Tiktok/MP4)",
+        "5. Ghim vị trí bản đồ OpenStreetMap/Leaflet (chạm để chọn tọa độ)",
+        "6. Thông tin liên hệ chủ nhà/CTV (Tên, SĐT, Ghi chú cho Admin)"
+      ]
+    },
+    "admin_dashboard_workflow": {
+      "tabs": ["Chờ duyệt (Pending)", "Đang hiển thị (Approved)", "Đã ẩn (Hidden)", "Đã chốt (Rented)"],
+      "batch_actions": ["Duyệt nhanh", "Ẩn tin", "Xóa", "Đổi trạng thái Đang gấp / Đã thuê"],
+      "live_edit": "Chỉnh sửa nhanh giá, diện tích, ghi chú nội bộ cho điều phối Zalo"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Build a pristine, blazing fast React web application in Vietnamese.",
+    "Implement mock database with rich seed data for Thuận An, Thủ Dầu Một, and Dĩ An.",
+    "Support both Public Catalog, Detail Modal/Page, Mobile-First Collaborator Submission Form, and Admin Management Portal with easy demo auth toggle (CTV / Admin / Public).",
+    "Integrate Leaflet/OpenStreetMap for location visualizer and coordinate picker.",
+    "Every button and listing card must carry explicit data-testid attributes.",
+    "Follow the warm earthy palette with terracotta primary (#E05A47) and authentic Zalo blue CTA (#0068FF).",
+    "Ensure the Zalo button triggers an authentic deep-link with pre-filled encoded text.",
+    "Use Toast (Sonner) for form submission and status updates."
+  ]
+}
